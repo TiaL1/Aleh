@@ -32,8 +32,15 @@ input {
   font-size: small;
 }
 .submit {
+  color: white;
   padding: 0.5rem;
   height: 2rem;
   width: 14rem;
-  background: #7B68EE;
+  background: #6a5acd;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  color: rgba(0,0,0,0.5);
 }
