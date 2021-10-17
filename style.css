@@ -38,6 +38,21 @@ input {
   width: 14rem;
   background: #6a5acd;
 }
+div {
+position: relative;
+height: 2rem;
+width: 14rem;
+}
+
+.first {
+  position: absolute;
+  left:-2%;
+}
+
+.second {
+  position: absolute;
+  right:0;
+}
 
 label {
   display: flex;
